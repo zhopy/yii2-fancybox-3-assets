@@ -1,0 +1,29 @@
+{
+    "name": "zhopy/yii2-fancybox-3-widget",
+    "description": "Yii2 Fancybox 3 Widget",
+    "type": "yii2-extension",
+    "license": "BSD-3-Clause",
+    "keywords": [
+      "yii2",
+      "extension",
+      "fancyapps",
+      "fancybox",
+      "fancybox3"
+    ],    
+    "authors": [
+        {
+            "name": "Zhopy",
+            "email": "kiankhoon@gmail.com"
+        }
+    ],
+    "require": {
+      "php": ">=5.6.0",
+      "yiisoft/yii2": "*",
+      "bower-asset/fancybox": "~3.3.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "zhopy\\fancybox3\\": ""
+        }
+    }
+}
